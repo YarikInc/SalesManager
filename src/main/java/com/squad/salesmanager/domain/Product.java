@@ -2,10 +2,10 @@ package com.squad.salesmanager.domain;
 
 public class Product {
 
-    ProductCategory productCategory;
-    String nameProduct;
-    double productPacking;
-    double price;
+    private ProductCategory productCategory;
+    private String nameProduct;
+    private double productPacking;
+    private double price;
 
     public ProductCategory getProductCategory() {
         return productCategory;
