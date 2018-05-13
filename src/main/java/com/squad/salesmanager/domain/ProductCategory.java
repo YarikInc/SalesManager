@@ -1,7 +1,18 @@
 package com.squad.salesmanager.domain;
 
-public enum ProductCategory {
+import lombok.AllArgsConstructor;
+import lombok.Getter;
 
-    PACKED_SWEETS, WEIGHT_CANDY, WEIGHT_COOKIE, PIECE_GOODS, PACKAGED_SWEETS, COFFEE
+@AllArgsConstructor
+public enum ProductCategory {
+    PACKED_SWEETS("Фасованные конфеты"),
+    WEIGHT_CANDY("Весовые конфеты"),
+    WEIGHT_COOKIE("Весовое печенье"),
+    PIECE_GOODS("Штучка"),
+    PACKAGED_SWEETS("Пакетированные конфеты"),
+    COFFEE("Кофе");
+
+    @Getter
+    private String russianName;
 
 }
