@@ -41,7 +41,7 @@ public class GoogleSheetsProductDao /*implements IProductDao*/ {
 
         // TODO: 
         List<List<Object>> values = readResult.getValueRanges().get(0).getValues();
-        log.info("{}", values);
+        //log.info("{}", values);
     }
 
     public void add(Product newProduct) {
